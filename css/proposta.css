@@ -1,0 +1,48 @@
+.section-proposta {
+    background-image: url(../assets/header2.svg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    width: 100%;
+    padding-top: 50px;
+    height: 350px;
+}
+
+.section-proposta .container {
+    height: 100%;
+}
+.section-proposta .row {
+    padding-bottom: 50px;
+    height: 100%;
+}
+
+.section-proposta .proposta-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.section-proposta p {
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+.m-t-40 {
+    margin-top: 30px !important;
+}
+
+.section-proposta .btn-lg {
+    font-size: 1rem;
+}
+
+@media(max-width: 786px) {
+    .section-proposta {
+        background-color: #1565C0;
+        background-image: none;
+    }
+}

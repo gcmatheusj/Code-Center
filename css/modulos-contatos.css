@@ -1,0 +1,31 @@
+.modulos-contatos {
+    background: #FAFAFA;
+    padding-bottom: 50px; 
+}
+
+.modulos-contatos .row .content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modulos-contatos .row h4 {
+    font-size: 1.1rem
+}
+
+.modulos-contatos .row p{
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.modulos-contatos .row #agenda {
+    width: 120px;
+}
+
+.modulos-contatos .row #telefone-contato {
+    width: 120px;
+}
+
+.modulos-contatos .row #sugestoes-duvidas {
+    width: 120px;
+}
